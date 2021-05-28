@@ -5,7 +5,7 @@ public class TypyProste {
     byte firstNumber = 127; //-128 do 127
     short secondNumber = 32689;
     int thirdNumber = 32768999;
-    long = fourthNumber = -2^63 do (2^63)- 1
+    long fourthNumber = -2^63 do (2^63)- 1;
 
     // liczby zmiennoprzecinkowe
     float fifthNumber = 4,99999F; // 6 miejsc po przecniku
