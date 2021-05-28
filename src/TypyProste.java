@@ -1,7 +1,7 @@
 public class TypyProste {
     //Typy proste
 
-    // liczby stałoprzecinkowe
+    /* liczby stałoprzecinkowe
     byte firstNumber = 127; //-128 do 127
     short secondNumber = 32689;
     int thirdNumber = 32768999;
@@ -18,6 +18,6 @@ public class TypyProste {
     // pojedynczy znak
 
     char letter = 'a';
-
+*/
 
 }
