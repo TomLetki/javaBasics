@@ -31,5 +31,7 @@ public class OperatoryMatematyczne {
 
 
 
+
+
     }
 }
