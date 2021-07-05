@@ -47,16 +47,21 @@ public class Calc {
 
     public int dzielenie(int firstNumber, int secondNumber) {
         if (secondNumber == 0) {
-            System.out.println("Błąd, dzielnie przez zero");
-            return 0;
+            System.out.println("Błąd, dzielnie przez ");
+            return secondNumber;
         } else {
             System.out.println("Wynik dzielenia to " );
         }return firstNumber/secondNumber;
     }
 
     public int modul(int firstNumber, int secondNumber){
-        System.out.println("reszty ");
-        return firstNumber%secondNumber;
+        if (secondNumber==0) {
+            System.out.println("Błąd, dzielnoe przez ");
+            return secondNumber;
+        }else
+            System.out.println("reszty ");
+            return firstNumber % secondNumber;
+
     }
 
 }
