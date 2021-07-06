@@ -1,24 +1,20 @@
 public class AutoTest {
     public static void main(String[] args) {
-            Auto mercedes =new Auto(); //typ obiektowy jak string, int itp
-            mercedes.marka = "Mercedes";
-            mercedes.model = "Klasa S";
-            mercedes.rok = 2021;
-            mercedes.przebieg = 1321;
 
-            mercedes.jedz();
-            mercedes.hamuj();
-            mercedes.info();
+        Auto audi = new Auto("Audi","A5",2018,200000);
+        audi.info();
 
-            Auto audi = new Auto();
-            audi.marka = "Audi";
-            audi.model = "A8";
-            audi.rok = 2020;
-            audi.przebieg =0;
+        Auto skoda = new Auto("Skoda","Octavia",2015,100000);
+        skoda.info();
 
-            audi.jedz();
-            audi.hamuj();
-            audi.info();
+        Auto volkswagen = new Auto("Volkswagen","Beetle",2020,18000);
+        volkswagen.info();
+
+        Auto seat = new Auto("Seat","Ibiza",2019,21900);
+        seat.info();
+
+
+
 
     }
 }
