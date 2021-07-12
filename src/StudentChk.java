@@ -1,11 +1,15 @@
 public class StudentChk {
     public static void main(String[] args) {
+        String uczelnia = Student.nazwaUczelni;
+        Student.infoUczelnia();
      Student tomek = new Student();
         tomek.imie = "Tomasz";
         tomek.nazwisko = "Letki";
         tomek.email = "tlet@gmail.com";
         tomek.nick = "tomlet";
         tomek.indeks=22272;
+        String uczelniaTomka = tomek.nazwaUczelni;
+        tomek.infoUczelnia();
 
      Student ania = new Student();
         ania.imie = "Anna";
