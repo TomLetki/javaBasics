@@ -6,6 +6,7 @@ public class Teacher extends Person {
         System.out.println("Uczę matematyki");
     }
     public void walk(){
+        super.walk();
         System.out.println("Lubię biegać a nie spacerować");
     }
     public Teacher(String name, int age, String school){
